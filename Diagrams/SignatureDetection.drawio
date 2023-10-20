@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" modified="2023-10-20T08:26:05.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="ybgvpSyV5TRV2WWqfo41" version="21.6.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="948" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="XL0CJSornGPtuZBDjpRW-4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="40" width="895" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-52" value="Start/End of the Sequence" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF0000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-53" value="Processes/Actions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-54" value="Decisions" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="110" y="350" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-56" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;rotation=90;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="115" y="490" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-57" value="Additional Information" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-67" value="Signature&lt;br&gt;Detection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="110" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-68" value="&lt;b&gt;Legend:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CbuRB8H8sCCOuhlkq7PC-69" value="Start/End of the Sequence" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;strokeColor=#FF0000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="90" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-1" value="State" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-0" target="XL0CJSornGPtuZBDjpRW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-0" value="Detect Rows and Columns" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="40" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-2" target="XL0CJSornGPtuZBDjpRW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-2" value="Detect &quot;Druckschrift&quot; names column" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="40" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-3" target="XL0CJSornGPtuZBDjpRW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-3" value="Signature Detection" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="40" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-6" target="XL0CJSornGPtuZBDjpRW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-6" value="Side Detection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="140" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-8" target="XL0CJSornGPtuZBDjpRW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-8" value="Detect &quot;Anwesenheitslisten&quot; Frame(Open CV ==&amp;gt; Frame Detection)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="240" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-9" value="Divide whole frame into several columns and rows. Since all rows are equally big(vertically) and the &quot;Name/Signature&quot; are equally big(horizontally)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="350" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-12" value="Using CV Trained Model to detect &quot;Druckschrift&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="140" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-13" target="XL0CJSornGPtuZBDjpRW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-13" target="XL0CJSornGPtuZBDjpRW-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="688" y="230" />
+              <mxPoint x="585" y="230" />
+              <mxPoint x="585" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-13" target="XL0CJSornGPtuZBDjpRW-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="688" y="230" />
+              <mxPoint x="585" y="230" />
+              <mxPoint x="585" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-13" value="Evaluate each Signature Column&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="605" y="140" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-14" target="XL0CJSornGPtuZBDjpRW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-14" value="Is the field empty?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="605" y="240" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-15" target="XL0CJSornGPtuZBDjpRW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-15" value="Can the values in the field be considered as&amp;nbsp; actual signatures?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="605" y="340" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-16" target="XL0CJSornGPtuZBDjpRW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-16" value="Is the field ambigous?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="605" y="440" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-17" value="Basically just the count of values" style="whiteSpace=wrap;html=1;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="872.5" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL0CJSornGPtuZBDjpRW-19" target="XL0CJSornGPtuZBDjpRW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-19" value="Analzye if the values are one &quot;connected&quot; Object" style="whiteSpace=wrap;html=1;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="872.5" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-21" value="Maybe &quot;Morphologische Bildverarbeitung&quot;" style="whiteSpace=wrap;html=1;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1055" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-23" value="Overlapping Signatures or Doubled Signatures" style="whiteSpace=wrap;html=1;rounded=0;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="872.5" y="442.5" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-24" value="OpenCV has a method to&amp;nbsp; detect each inner line.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=1;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="490" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XL0CJSornGPtuZBDjpRW-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="490" as="sourcePoint" />
+            <mxPoint x="365" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
