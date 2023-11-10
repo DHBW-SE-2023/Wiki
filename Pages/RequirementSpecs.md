@@ -19,6 +19,10 @@ This is precisely the process we are addressing with the development of a full-s
 - User Documentation
    - "Help" in Program
 - GDPR/DSGVO Compliance
+- Schmidt sagt:
+- Liste trotzdem anzeigen (Stichproben)
+- Datum, Dozent, Raum
+
 
 ### Optional Features
 - Dualis Integration
