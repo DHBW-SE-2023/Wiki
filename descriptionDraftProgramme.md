@@ -25,3 +25,7 @@ It is precisely this process that we are trying to address with the development 
 ### Usage, Outlook
 As already mentioned, the application will initially be used in the secretariat of the DHBW Friedrichshafen. The aim is to reduce the workload on staff by automating the time-consuming, manual checking of the "participant lists". This will free up capacity and allow them to focus on more important tasks.
 In the future, with the approval of the DHBW, the current programme could be extended to include authentic signature recognition, which would be able to check signatures for correctness. With this extension, the DHBW could extend signature verification to all other DHBW locations, thus providing far-reaching workload reduction.
+
+-----
+Back to the [main page](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md) again.
+
