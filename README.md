@@ -24,7 +24,9 @@ As we are using the programming language Go, our project has an unconventional c
 - [Open CV Analyzation](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/OpenCVAnalyzation.drawio)
 - [Signature Detection](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/SignatureDetection.drawio)
 
-
+# Architecture Plan
+The architecture plan contains the current status of all requirement. Thus, an excessive backlog checking to see how features progress gets avoided. \
+View our architecture plan [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/ArchitecturePlan.md)
 
 # Templates
 For contributing to our project, you will want to look into our templates.
