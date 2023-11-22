@@ -9,6 +9,9 @@ Our [Management](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/Management
 Our [Requirements](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/RequirementSpecs.md)
 Our [user story template](https://github.com/DHBW-SE-2023/Wiki/blob/main/Templates/templateUserStories.md)
 
+# Project Structure
+See [Structure](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/Structure.md)
+
 # Documentation
 - [GoDoc](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/GoDoc.md) 
 
