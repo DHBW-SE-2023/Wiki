@@ -1,6 +1,8 @@
 # Description Draft Programme
 
-### Topic: **YAAC - Yet Another Attendance Checker**
+## Topic: **YAAC - Yet Another Attendance Checker**
+
+
 
 ### General description:
 At present, attendance at each course at the DHBW Friedrichshafen is checked by means of a written list of participants. Each student must sign the relevant line. The completed lists are then sent to the DHBW Friedrichshafen office by each course spokesperson. Once all the lists have been received, each list must be manually checked for completeness.
@@ -27,5 +29,5 @@ As already mentioned, the application will initially be used in the secretariat 
 In the future, with the approval of the DHBW, the current programme could be extended to include authentic signature recognition, which would be able to check signatures for correctness. With this extension, the DHBW could extend signature verification to all other DHBW locations, thus providing far-reaching workload reduction.
 
 -----
-Back to the [main page](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md) again.
+Back to main page [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md).
 

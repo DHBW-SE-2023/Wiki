@@ -2,7 +2,7 @@
 The Structures specific Requirements and developent are discussed [here](https://github.com/DHBW-SE-2023/YAAC/pull/15).
 
 ## Structural Layout
-The project is structured around the [this layout](https://github.com/golang-standards/project-layout). YAAC relies on [Fyne](https://fyne.io/) for it's frontend. Golang prohibits cyclic imports which makes a traditional [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) structure where packages import eachother imposible. However, go interfaces allow to circumvent this issue. YAAC implements a structure based on [this](https://jogendra.dev/import-cycles-in-golang-and-how-to-deal-with-them) article. 
+The project is structured around [this layout](https://github.com/golang-standards/project-layout). YAAC relies on [Fyne](https://fyne.io/) for it's frontend. Golang prohibits cyclic imports which makes a traditional [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) structure where packages import eachother imposible. However, go interfaces allow to circumvent this issue. YAAC implements a structure based on [this](https://jogendra.dev/import-cycles-in-golang-and-how-to-deal-with-them) article. 
 
 ### Guide
 YAAC contains templates for all internal packages with comments explaing how to setup MVVM correctly.
@@ -12,15 +12,15 @@ YAAC contains templates for all internal packages with comments explaing how to 
 root
 ├─assets
 ├─cmd
-└──yaac
+├─yaac
 ├─docs
 ├─internal
-└──backend
-└──frontend
-└──mvvm
-└──shared
+├─backend
+├─frontend
+├─mvvm
+├─shared
 ├─pkg
-├─test
+└─test
 ```
 
 ### Description
@@ -71,3 +71,5 @@ root
 # Credits
 - https://github.com/golang-standards/project-layout
 - https://jogendra.dev/import-cycles-in-golang-and-how-to-deal-with-them
+
+Back to main page [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md).

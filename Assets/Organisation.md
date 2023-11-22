@@ -1,13 +1,13 @@
-# Projekthandbuch
-## Relevante Standards für die Projektabwicklung
+# Projekthandbuch - Project Manual
+## Relevante Standards für die Projektabwicklung - Relevant Standards for Project Execution
 - DSGVO
-   - Studenten Daten
-   - Passwörter
+   - Studenten Daten - Student data
+   - Passwörter - Passwords
 - SMTP (RFC5321) 
 - IMAP (RFC3501)
 
-## Anzuwendendes Prozessmodell
-- Agile Entwicklung mit SCRUM
+## Anzuwendendes Prozessmodell - Applicable Process Modelaa
+- Agile Entwicklung mit SCRUM - Agile development with SCRUM
    - PO: Leander
    - SCRUM-Master: Max
    - QM: Eric

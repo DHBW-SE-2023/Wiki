@@ -1,5 +1,5 @@
 # Template for User Stories
-------
+
 The specifications have to answer the following questions:
 - What features must the product have?
 - What features are desirable?
