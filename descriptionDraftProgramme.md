@@ -1,4 +1,4 @@
-# Beschreibung Programmentwurf
+# Description Draft Programme
 
 ### Topic: **YAAC - Yet Another Attendance Checker**
 
