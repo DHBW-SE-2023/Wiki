@@ -10,7 +10,7 @@
 - Home View
 - Course View
 - Student View
-- Human Approval Form (unhandled evaluation)
+- Human Approval View (unhandled evaluation)
 
 ---
 
