@@ -24,11 +24,12 @@ The Requirements are
    - Stakeholder Review (Mr. Kegreiß, Mrs. Schmidt)
    - Deployment
 
+The Exploration Sprints were done by developing various prototypes. A description can be found [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/ExplorationSprints.md). The prototypes can be found [here](https://github.com/DHBW-SE-2023/Prototyping).
+
 
 - Product Backlog
    - See our Kanban-Board [here](https://github.com/orgs/DHBW-SE-2023/projects/1)
    - tbd.
-
 
 
 
