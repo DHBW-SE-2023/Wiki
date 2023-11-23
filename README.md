@@ -24,7 +24,8 @@ As we use agile planning, our management is described [here](https://github.com/
 As we are using the programming language Go, our project has an unconventional code structure. View the proper decription and explanation of it [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/Structure.md)!
 
 # Documentation
-- [GoDoc](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/GoDoc.md) 
+Our documentation will be done with Godoc. Click [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/GoDoc.md) to see an introduction to Godoc.
+Our documentation is liked [here](https://github.com/DHBW-SE-2023/YAAC/blob/main).
 
 # Diagrams
 - [Main Flow A](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/MainFlowA.drawio)
