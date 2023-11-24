@@ -25,7 +25,7 @@ As we are using the programming language Go, our project has an unconventional c
 
 # Documentation
 Our documentation will be done with Godoc. Click [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/GoDoc.md) to see an introduction to Godoc.
-Our documentation is liked [here](https://github.com/DHBW-SE-2023/YAAC/blob/main).
+Our documentation is linked [here](https://github.com/DHBW-SE-2023/YAAC/blob/main).
 
 # Diagrams
 - [Main Flow A](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/MainFlowA.drawio)
