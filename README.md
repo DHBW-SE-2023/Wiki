@@ -11,7 +11,7 @@ Welcome to the main page of our Wiki. \
 The links will guide you to all sub-articles of this page.
 
 ![A](./Assets/Icon.png)
-# What is YAAK?
+# What is YAAC?
 YAAK is 'Yet Another Attendance Checker' which goal it is to simplify the daily attendance checks at the DHBW Friedrichshafen. \
 If you are interested in reading about our requirements more speficially,view our requirement specifications [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/RequirementSpecs.md).
 
