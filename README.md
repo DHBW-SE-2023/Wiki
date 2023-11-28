@@ -1,9 +1,9 @@
 # Wiki
 
-YAAC [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/YAAC.svg)](https://github.com/DHBW-SE-2023/YAAC/blob/master/LICENCE) 
+YAAC [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/YAAC.svg)](https://github.com/DHBW-SE-2023/YAAC/blob/master/LICENSE) 
 
 
-Wiki [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/Wiki.svg)](https://github.com/DHBW-SE-2023/Wiki/blob/main/LICENCE)
+Wiki [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/Wiki.svg)](https://github.com/DHBW-SE-2023/Wiki/blob/main/LICENSE)
 
 
 
