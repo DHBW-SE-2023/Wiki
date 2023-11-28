@@ -1,9 +1,9 @@
 # Wiki
 
-[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-Beginners.svg)](https://github.com/DHBW-SE-2023/Wiki/blob/main/LICENCE)  <- demo button, not a real button, needs to be deleted later
+YAAC [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/YAAC.svg)](https://github.com/DHBW-SE-2023/YAAC/blob/main/LICENCE) 
 
 
-[![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/YAAC.svg)](https://github.com/DHBW-SE-2023/Wiki/blob/main/LICENCE)
+Wiki [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/Wiki.svg)](https://github.com/DHBW-SE-2023/Wiki/blob/main/LICENCE)
 
 
 
