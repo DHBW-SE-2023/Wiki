@@ -24,7 +24,7 @@ As we use agile planning, our management is described [here](https://github.com/
 As we are using the programming language Go, our project has an unconventional code structure. View the proper decription and explanation of it [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/Structure.md)!
 
 # Documentation
-Our documentation will be done with Godoc. Click [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/GoDoc.md) to see an introduction to Godoc.
+Our documentation will be done with Godoc. Click [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/GoDoc.md) to see an introduction to Godoc. \
 Our documentation is linked [here](https://github.com/DHBW-SE-2023/YAAC/blob/main).
 
 # Diagrams
@@ -40,6 +40,9 @@ View our architecture plan [here](https://github.com/DHBW-SE-2023/Wiki/blob/main
 # Templates
 For contributing to our project, you will want to look into our templates.
 - Our user story template can be accessed [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Templates/templateUserStories.md).
+
+# Ci/Cd Pipeline
+See our pipeline setup [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/Pipeline.md)
 
 # Maintainers/Contributors
 - Project of project group no. 12
