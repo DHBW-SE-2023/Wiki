@@ -1,6 +1,6 @@
 # Wiki
 
-YAAC [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/YAAC.svg)](https://github.com/DHBW-SE-2023/YAAC/blob/master/LICENSE) 
+YAAC [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/YAAC.svg)](https://github.com/DHBW-SE-2023/YAAC/blob/master/LICENSE)
 
 
 Wiki [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/Wiki.svg)](https://github.com/DHBW-SE-2023/Wiki/blob/main/LICENSE)
@@ -14,6 +14,20 @@ The links will guide you to all sub-articles of this page.
 # What is YAAC?
 YAAK is 'Yet Another Attendance Checker' which goal it is to simplify the daily attendance checks at the DHBW Friedrichshafen. \
 If you are interested in reading about our requirements more speficially,view our requirement specifications [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/RequirementSpecs.md).
+
+### Software used:
+<img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+<img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+<img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+<img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" />
+<img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+<img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
+<img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" />
+
+found [here](https://devicon.dev)              
+
+          
+
 
 # Organisation
 
