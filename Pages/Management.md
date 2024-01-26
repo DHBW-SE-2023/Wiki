@@ -93,3 +93,6 @@ Questions:
 ## …Algorithmen
 ## …Entwicklungsumgebung
 ## …Hardware
+
+
+Back to main page [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md).
