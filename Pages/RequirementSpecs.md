@@ -98,3 +98,6 @@ Signature fields should be considered invalid if
 On the other hand signature fields should be considered valid if
 -	There signature consists of two names, but the signature is of the form firstname-family name
 -	If there are two signatures in the field, but one is crossed out (this is optional to implement)
+
+
+Back to main page [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md).
