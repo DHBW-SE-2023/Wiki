@@ -89,7 +89,7 @@ All configuration options of the application must be accessible in the GUI itsel
 ## Background task
 When the GUI is closed the app itself should continue. In regular intervals it should check wether new attendence sheets have appeared and then process them. If unhandled evaluations occur, send a notification to the user, through which they can open the GUI, as described previously.
 The application get its datasheets from the source. This source should be an e-mail mailbox, which is addressed via IMAP. IMAP itself must support both login through a simple username-password combination as well as via XOAuth2. The user should have to enter their login credentials only once, so they need to be stored securly locally. The login credentials should have to be changed later. If the app is uninstalled all traces of the login credentials need to be destroyed.
-### Attendence sheet processing
+### Attendance sheet processing
 This is the main task done by the background task, therefore it is important that this runs smoothly and does not impact the usability of the PC of the user. This task processes an image of an attendence sheet, determines what signatures are considered valid and which are invalid. The default behaviour for handling invalid signatures is to mark them as unhandled evaluations.
 Signature fields should be considered invalid if
 -	There is no signature in the field
@@ -99,5 +99,14 @@ On the other hand signature fields should be considered valid if
 -	There signature consists of two names, but the signature is of the form firstname-family name
 -	If there are two signatures in the field, but one is crossed out (this is optional to implement)
 
+### Image Processing
+
+- Paper sheet detection
+- Reverse perspective transform
+- Table detection
+- Row/Column detection
+- Printed text detection (left column)
+- Detection of valid signature fields (only one signature per field, no overlaps, can it qualify as a signature)
+- Extraction of list of user and if valid signature is present
 
 Back to main page [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md).
