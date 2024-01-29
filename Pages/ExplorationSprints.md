@@ -3,48 +3,35 @@
 In the Exploration Sprints we tested critical software to ensure its implementation possibility.
 
 The software bits we tested were: 
- - Programming Language + Frontend Tool
  - Image Processing
  - Mail Integration
-
-
-
- ## Programming Language + Frontend Tool
-
- As we were flexible with the decision of which programming language to use we concentrated on their ability to connect to different frontend tools. The frontend tools which we chose to take a closer look at were Electron, Tauri and Fyne. 
-
-The exploration sprint was completed if the coder was able to create a basic ui-window displaying a clickable button that executes a simple "Hello World" function in the backend.
-
-We combined Electron with Python, however we decided against using this combination due to only finding deprecated libraries for our use cases.
-
-Rust was tested with Tauri which was successful in its exploration sprint but the setup was difficult and the usage of Rust turled out to be unintuitive. Since we wanted to give Tauri another try, we used Python as programming language which eventually turned out to be a dead end as well. The reason for it was that we were unable to setup an environment where interoperation between Tauri and Python was possible.
-
-The combination we chose to use in the end was Go and Fyne. Go is an open source programming language having a clean syntax and fast compile times. It is also designed for web development, packaging and multithreading which makes it a great choice to use for our project.
+ - Frontend Tool (+ Programming Language)
 
 
 
 ## Backend
 
-The project not only consists of frontend and user interface. Therefore we also had to test the backend which consists of image processing and mail integration.
+The project's key technology is part of the backend. There we testeed both image processing software and the mail integration.
 
 ### Image Processing
 
-As image processing is the main background task, is has to be realisable in the chosen programming language. From the required steps of image processing we concluded that if the first three stages are implementable, the other steps will be as well. Therefore, we chose the following steps as requirements for the image processing exploration sprint:
+As image processing is the main background task, is has to be realisable in the chosen programming language. From the required steps of image processing (listed [here](ImageProcessing.md)) we concluded that if the first three steps are implementable, the other ones will be as well. Therefore, we chose the following as requirements for the image processing exploration sprint:
 
 - Paper sheet detection
 - Reverse perspective transform
 - Table detection
 
-The first prototype was implemented in OpenCV, which uses the programming language Python. As we chose Go in the Frontend exploration sprint, it was necessary to also make image processing work in Go. The working solution is called GoCV, which is 
+The first prototype was implemented in OpenCV, which uses the programming language Python. As we were not sure whether we want to code in Python or in Go, it was necessary to also test image processing there. The working solution uses the library called GoCV.
 
+Both technologies were compared in a juxtaposition to figure out the better solution of both.
 
-On paper GO obviously has a better performance, since it is a compiled language and therefore it links directly to the OPEN CV C++ library. But from what I've seen and read, the actual efficiency benefits compared to python aren't as big. Both are more or less similar regarding their "execution" time.
-So in my opinion this point shouldn't matter as much, since the performance won't be the biggest problem for our "small" program.
+In terms of Performance, Go at least on paper takes the lead since it is a compiled language and therefore links directly to the OPEN CV C++ library. The actual efficiency benefits compared to python aren't as big as they are on paper - they rather are more or less similar regarding their "execution" time [(source)](https://www.reddit.com/r/golang/comments/p5n05s/gocv_vs_opencv_python_performance/). Consequently, the point performance shouldn't matter as much, espeically since the performance won't be the biggest problem for our "small" program.
 
-Documentation and Support
+Regarding the documentation, GO seems to be quite good "monitored" and has a big range of different functionalities similar to Python [(see here)](https://pkg.go.dev/gocv.io/x/gocv#section-documentation).
+So therefore the main difference is the amount of help and support that can be found on the internet, if any problems occur. Given that OPEN CV has a huge amount of projects and users working with Python, the better choice in this point would be Python. 
 
-Regarding the documentation, GO seems to be quite good "monitored" and has a big range of different functionalities similar to Python.(https://pkg.go.dev/gocv.io/x/gocv#section-documentation)
-So therefore the main difference is the amount of help and support we'll find in the internet, if any problems occur. Given that OPEN CV has a huge amount of projects and users working with Python, I'd say that we'll be better of with Python.
+-----
+# not implemented yet -->
 
 Parallelism and Concurrency
 
@@ -65,3 +52,17 @@ But at the same time I believe, we shouldn't underestimate the importance of "Su
 Besides that I couldn't yet check if GOCV provides all of the functions, that we'll need for the signature detection. But I've read some posts suggesting that GOCV regularly misses higher level functions/modules.
 
 ### Mail Integration
+
+ ## Programming Language + Frontend Tool
+
+ As we were flexible with the decision of which programming language to use we concentrated on their ability to connect to different frontend tools. The frontend tools which we chose to take a closer look at were Electron, Tauri and Fyne. 
+
+The exploration sprint was completed if the coder was able to create a basic ui-window displaying a clickable button that executes a simple "Hello World" function in the backend.
+
+We combined Electron with Python, however we decided against using this combination due to only finding deprecated libraries for our use cases.
+
+Rust was tested with Tauri which was successful in its exploration sprint but the setup was difficult and the usage of Rust turled out to be unintuitive. Since we wanted to give Tauri another try, we used Python as programming language which eventually turned out to be a dead end as well. The reason for it was that we were unable to setup an environment where interoperation between Tauri and Python was possible.
+
+The combination we chose to use in the end was Go and Fyne. Go is an open source programming language having a clean syntax and fast compile times. It is also designed for web development, packaging and multithreading which makes it a great choice to use for our project.
+
+
