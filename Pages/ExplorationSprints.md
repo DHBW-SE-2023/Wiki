@@ -7,7 +7,7 @@ The software bits we tested were:
  - Mail Integration
  - Frontend Tool (+ Programming Language)
 
-
+---
 
 ## Backend
 
@@ -47,6 +47,7 @@ There were different approaches regarding the main integration. The most natural
 
 The second approach was to test alternatives using our student email addresses. The idea was to send the lists to a separate mail address that can be interfaced or to use WebScraper for OutlookWeb. Connecting to the DHBW server using IMAP protocol failed as it is unsupported. It turned out a success to connect to an IMAP supported email server in python and as the exploration sprint showed it is easily achievable as well.
 
+____
 
 ## Programming Language + Frontend Tool
 
@@ -62,4 +63,11 @@ Rust was tested with Tauri which was successful in its exploration sprint but th
 
 The combination we chose to use in the end was Go and Fyne. Go is an open source programming language having a clean syntax and fast compile times. It is also designed for web development, packaging and multithreading which makes it a great choice to use for our project.
 
+---
+
+## Conclusion
+
+The exploration sprints helped us to find the technologies we needed for the project. By implementing basic, but nevertheless important functions of the project, we were able to determine the pros and cons of each aspect.
+
+The chosen technologies are Go, Fyne, AND MORE.
 
