@@ -22,7 +22,7 @@ SQLite is supported in GO and provides an minimal relational database which coul
 
 ## Important information for database security
 
-For faster execution and security against SQL-Injection attacks it is crucial to use prepared statements wherever user input is parsed to an SQL statement. Prepared statements save resources and accept input variables only as values not as part of the sql statement. Usage is described here: Using prepared statements
+For faster execution and security against SQL-injection attacks it is crucial to use prepared statements wherever user input is parsed to an SQL statement. Prepared statements save resources and accept input variables only as values not as part of the sql statement. Usage is described here: Using prepared statements
 
 ## Database definition and model
 
