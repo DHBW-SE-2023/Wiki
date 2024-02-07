@@ -1,0 +1,75 @@
+<mxfile host="Electron" modified="2024-02-07T14:30:09.242Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="G1YlzcPqyNl66m4JskKr" version="23.0.2" type="device">
+  <diagram name="Seite-1" id="mwSsKPrf4XuerO5NW2ej">
+    <mxGraphModel dx="855" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xE4TKGpTWHG0cfowQnag-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="118" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-2" value="Mail Frontend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-3" value="MVVM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-4" value="Mail Backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-5" value="1.1 Log in" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="xE4TKGpTWHG0cfowQnag-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="150" as="sourcePoint" />
+            <mxPoint x="270" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-8" value="E-Mail Webserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-9" value="1.2&amp;nbsp; user credentials" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE4TKGpTWHG0cfowQnag-2" target="xE4TKGpTWHG0cfowQnag-3">
+          <mxGeometry x="-0.0019" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-10" value="1.3&amp;nbsp; user credentials" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE4TKGpTWHG0cfowQnag-3" target="xE4TKGpTWHG0cfowQnag-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="563" y="178" as="sourcePoint" />
+            <mxPoint x="740" y="178" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-11" value="1.4 Fetch Unread mails" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE4TKGpTWHG0cfowQnag-4" target="xE4TKGpTWHG0cfowQnag-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="350" as="sourcePoint" />
+            <mxPoint x="633" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-12" value="1.5&amp;nbsp; unread messages" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE4TKGpTWHG0cfowQnag-8" target="xE4TKGpTWHG0cfowQnag-4">
+          <mxGeometry x="-0.0027" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="300" as="sourcePoint" />
+            <mxPoint x="1070" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-13" value="1.5&amp;nbsp; unread messages" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE4TKGpTWHG0cfowQnag-4" target="xE4TKGpTWHG0cfowQnag-3">
+          <mxGeometry x="-0.0027" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="260" as="sourcePoint" />
+            <mxPoint x="530" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-14" value="OpenCV Backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xE4TKGpTWHG0cfowQnag-16" value="1.5&amp;nbsp; unread messages" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xE4TKGpTWHG0cfowQnag-3" target="xE4TKGpTWHG0cfowQnag-14">
+          <mxGeometry x="-0.0027" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="613" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
