@@ -1,0 +1,100 @@
+<mxfile host="Electron" modified="2024-02-07T11:03:02.383Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mGeIk2LEMIcZLZFIdVGW" version="23.0.2" type="device">
+  <diagram name="Seite-1" id="JIpQHZbgDTInoI8QKYGY">
+    <mxGraphModel dx="1026" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-tW4s0sogRndh3ceRelY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-tW4s0sogRndh3ceRelY-1" target="-tW4s0sogRndh3ceRelY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-16" value="upload" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-tW4s0sogRndh3ceRelY-12">
+          <mxGeometry x="-0.281" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-1" value="List as image file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-14" value="store" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-tW4s0sogRndh3ceRelY-2" target="-tW4s0sogRndh3ceRelY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-2" value="System: Image Processing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="476" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-tW4s0sogRndh3ceRelY-3" target="-tW4s0sogRndh3ceRelY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-19" value="load" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-tW4s0sogRndh3ceRelY-15">
+          <mxGeometry x="0.0791" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-3" value="Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-tW4s0sogRndh3ceRelY-5" target="-tW4s0sogRndh3ceRelY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-22" value="show" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-tW4s0sogRndh3ceRelY-17">
+          <mxGeometry x="0.0239" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-5" value="System: Analyse Attandance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-11" value="extract image from mail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-tW4s0sogRndh3ceRelY-6" target="-tW4s0sogRndh3ceRelY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-6" value="List as E-Mail attachment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-7" value="Attendance Overview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; caret-color: rgb(189, 193, 198);&quot;&gt;&lt;font face=&quot;Google Sans, arial, sans-serif&quot; color=&quot;#bdc1c6&quot;&gt;secretary&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="21" y="515" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-tW4s0sogRndh3ceRelY-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="61" y="545" as="sourcePoint" />
+            <mxPoint x="281" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-24" value="check&amp;nbsp; attendance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-tW4s0sogRndh3ceRelY-23">
+          <mxGeometry x="-0.3083" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-25" value="students" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-26" value="secretary" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-33" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-tW4s0sogRndh3ceRelY-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="62" y="350" as="sourcePoint" />
+            <mxPoint x="252" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-34" value="image of attandance list&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-tW4s0sogRndh3ceRelY-33">
+          <mxGeometry x="-0.3083" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-tW4s0sogRndh3ceRelY-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="62" y="190" as="sourcePoint" />
+            <mxPoint x="262" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tW4s0sogRndh3ceRelY-36" value="send attandance list via mail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-tW4s0sogRndh3ceRelY-35">
+          <mxGeometry x="-0.3083" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,9 +1,9 @@
-# GitHub Actions Ci/Cd pipeline
+# GitHub Actions CI/CD pipeline
 
-The `main.yml` file in `.github/workflows` contains the functionallity of the pipeline. 
+The `main.yml` file in `.github/workflows` contains the functionality of the pipeline. 
 
 ## Purpose
-The pipelines main purpose is to check if commited code compiles in a static environment. It is also capable of performing tests to check code copliance.
+The pipelines main purpose is to check if committed code compiles in a static environment. It is also capable of performing tests to check code compliance.
 
 ## Sections
 The configured root sections are:
