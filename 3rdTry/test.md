@@ -35,10 +35,10 @@ erst
 
 
 Fragen:
-- Was sind "Prozessmodelle"?
 - Definition of Done ≈ Projekthandbuch - dieselbe Kleingliedrige Aufteilung?
 - Ist die Planungsphase nicht die Definitionsphase?
-- 3.1.0- Architektur: Spracherkennung? Was ist damit gemeint?
+
+- 
 
 
 
