@@ -8,13 +8,14 @@ Wiki [![GitHub license](https://img.shields.io/github/license/DHBW-SE-2023/Wiki.
 
 
 Welcome to the main page of our Wiki. \
-The links will guide you to all sub-articles of this page.
+<!--The links will guide you to all sub-articles of this page. -->
 
-![A](./Assets/Icon.png)
+![YAAC](./Assets/Icon.png)
 # What is YAAC?
 YAAK is 'Yet Another Attendance Checker' which goal it is to simplify the daily attendance checks at the DHBW Friedrichshafen. \
 If you are interested in reading about our requirements more speficially,view our requirement specifications [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/RequirementSpecs.md).
 
+<!--
 ### Software used:
 <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
 <img height="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
@@ -26,8 +27,16 @@ If you are interested in reading about our requirements more speficially,view ou
 
 found [here](https://devicon.dev)              
 
-          
+-->
 
+# Quick Links:
+          
+- [Research]
+- [Planning Phase](/3rdTry/1PlanningPhase/1.0.0PlanningPhase.md)
+- [Definition Phase](/3rdTry/2DefinitionPhase/2.0.0DefinitionPhase.md)
+- [Design Phase](/3rdTry/3DesignPhase/3.0.0DesignPhase.md)
+- [Implementation Phase](/3rdTry/4ImplementationPhase/4.0.0ImplementationPhase.md)
+- [Testing Phase](/3rdTry/5TestingPhase/5.0.0TestingPhase.md)
 
 # Organisation
 
