@@ -1,0 +1,7 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLState</id><coordinates><x>580</x><y>200</y><w>100</w><h>40</h></coordinates><panel_attributes>mvvm</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>340</x><y>200</y><w>100</w><h>40</h></coordinates><panel_attributes>frontend</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>820</x><y>200</y><w>100</w><h>40</h></coordinates><panel_attributes>backend</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>190</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+mvvm data</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>210</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+
+UI event</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>190</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+read</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>210</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+
+write</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element></diagram>

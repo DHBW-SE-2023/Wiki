@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>490</x><y>80</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+mvvm
+
+connects backend and frontend
+=&gt; no direct </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>80</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+frontend
+
+contains all functions for UI</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>810</x><y>80</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+backend
+
+contains backend functionalities</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>120</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>110</y><w>100</w><h>50</h></coordinates><panel_attributes>lt=)-</panel_attributes><additional_attributes>70;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>120</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>110</y><w>90</w><h>50</h></coordinates><panel_attributes>lt=)-</panel_attributes><additional_attributes>60;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>490</x><y>280</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+shared
+
+contains data that is used from
+all three modules 
+(mvvm, frontend, backend)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>840</x><y>170</y><w>100</w><h>190</h></coordinates><panel_attributes>lt=)-</panel_attributes><additional_attributes>20;160;80;160;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>320</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>230</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>170</y><w>50</w><h>80</h></coordinates><panel_attributes>lt=)-</panel_attributes><additional_attributes>20;50;20;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>170</y><w>80</w><h>190</h></coordinates><panel_attributes>lt=)-</panel_attributes><additional_attributes>50;160;10;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>320</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element></diagram>
