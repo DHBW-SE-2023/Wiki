@@ -30,13 +30,14 @@ found [here](https://devicon.dev)
 -->
 
 # Quick Links:
-          
+
+- [Code Documentation](https://pkg.go.dev/github.com/DHBW-SE-2023/YAAC) and [Documentation Guide](/Pages/CodeDocumentationGODoc.md)   
 - [Research]
-- [Planning Phase](/3rdTry/1PlanningPhase/1.0.0PlanningPhase.md)
-- [Definition Phase](/3rdTry/2DefinitionPhase/2.0.0DefinitionPhase.md)
-- [Design Phase](/3rdTry/3DesignPhase/3.0.0DesignPhase.md)
-- [Implementation Phase](/3rdTry/4ImplementationPhase/4.0.0ImplementationPhase.md)
-- [Testing Phase](/3rdTry/5TestingPhase/5.0.0TestingPhase.md)
+- [Planning Phase](/Pages/1Planning/1.0.0PlanningPhase.md)
+- [Definition Phase](/Pages/2Definition/2.0.0DefinitionPhase.md)
+- [Design Phase](/Pages/3Design/3.0.0DesignPhase.md)
+- [Implementation Phase](/Pages/4Implementation/4.0.0ImplementationPhase.md)
+- [Testing Phase](/Pages/5Testing/5.0.0TestingPhase.md)
 
 # Organisation
 
