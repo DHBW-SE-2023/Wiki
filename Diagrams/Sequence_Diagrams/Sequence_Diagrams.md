@@ -8,3 +8,7 @@ Creating sequence diagrams with PlantUML is remarkably straightforward. This eas
 
 ## Starting YAAC
 ![](Starting_YAAC.png)
+
+## Fetching unprocessed Attendance-Lists
+![](Periodic_Mail_Fetch.png)
+

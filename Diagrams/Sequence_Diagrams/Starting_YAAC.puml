@@ -2,14 +2,17 @@
 
 Actor User as user
 Participant "Docker" as docker
-Participant "YAAC" as app
+Participant "MVVM" as app
+Participant "Backend" as daemon
+Participant "Frontend" as ui
 
 activate user
 user -> docker ++: Run YAAC
 docker -> docker: Create Container
 docker -> app ++: Start Container
-app -> app: Initialize Application
-app -> docker: Draw Frontend
+app -> daemon ++: New()
+app -> ui ++: New()
+ui -> docker: Draw Frontend
 docker --> user: Expose Frontend
 
 @enduml

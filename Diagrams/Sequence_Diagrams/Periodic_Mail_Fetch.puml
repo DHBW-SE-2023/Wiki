@@ -1,0 +1,34 @@
+@startuml Periodic_Mail_Fetch
+
+Actor User as user
+Participant "MVVM" as app
+Participant "Backend" as daemon
+Participant "Mail-Module" as mailmod
+Participant "Mail-Server" as gmail
+
+activate user
+activate gmail
+
+note over user, app
+abstraction trough
+docker not shown
+for simplicity
+end note
+
+user -> app ++: Run YAAC
+app -> daemon ++: New()
+daemon -> mailmod ++: New()
+loop infinitly
+    daemon ->> mailmod: GetMailsToday()
+    mailmod -> gmail: Login()
+    mailmod -> gmail: Fetch()
+    gmail --> mailmod: Data
+    mailmod -->> daemon: [ ]MailData
+end loop
+
+note over daemon, gmail
+loop is repeated only every 5 minutes,
+to avoid Spam-Protection of the server
+end note
+
+@enduml
