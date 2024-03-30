@@ -2,8 +2,7 @@
 
 Actor User as user
 Participant "MVVM" as app
-Participant "Backend" as daemon
-Participant "Mail-Module" as mailmod
+Participant "Mail_Backend" as daemon
 Participant "Mail-Server" as gmail
 
 activate user
@@ -17,16 +16,15 @@ end note
 
 user -> app ++: Run YAAC
 app -> daemon ++: New()
-daemon -> mailmod ++: New()
 loop infinitly
-    daemon ->> mailmod: GetMailsToday()
-    mailmod -> gmail: Login()
-    mailmod -> gmail: Fetch()
-    gmail --> mailmod: Data
-    mailmod -->> daemon: [ ]MailData
+    app ->> daemon: GetMailsToday()
+    daemon -> gmail: Login()
+    daemon -> gmail: Fetch()
+    gmail --> daemon: Data
+    daemon -->> app: [ ]MailData
 end loop
 
-note over daemon, gmail
+note over app, gmail
 loop is repeated only every 5 minutes,
 to avoid Spam-Protection of the server
 end note
