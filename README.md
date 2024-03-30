@@ -12,8 +12,8 @@ Welcome to the main page of our Wiki. \
 
 ![YAAC](./Assets/Icon.png)
 # What is YAAC?
-YAAK is 'Yet Another Attendance Checker' which goal it is to simplify the daily attendance checks at the DHBW Friedrichshafen. \
-If you are interested in reading about our requirements more speficially,view our requirement specifications [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/RequirementSpecs.md).
+YAAC is 'Yet Another Attendance Checker' which goal it is to simplify the daily attendance checks at the DHBW Friedrichshafen. \
+If you are interested in reading about our requirements more specifically,view our requirement specifications [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/RequirementSpecs.md).
 
 <!--
 ### Software used:
@@ -56,6 +56,7 @@ Our documentation is linked [here](https://github.com/DHBW-SE-2023/YAAC/blob/mai
 - [Main Flow B](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/MainFlowB.drawio)
 - [Open CV Analyzation](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/OpenCVAnalyzation.drawio)
 - [Signature Detection](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/SignatureDetection.drawio)
+- [Sequence-Diagrams](https://github.com/DHBW-SE-2023/Wiki/blob/main/Diagrams/Sequence_Diagrams/Sequence_Diagrams.md)
 
 # Architecture Plan
 The architecture plan contains the current status of all requirement. Thus, an excessive backlog checking to see how features progress gets avoided. \
@@ -71,3 +72,13 @@ See our pipeline setup [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pag
 # Maintainers/Contributors
 - Project of project group no. 12
 - names? 
+
+# Diagrams
+
+Sequence Diagrams were created using [PlantUML](https://plantuml.com/sequence-diagram).
+
+Creating sequence diagrams with PlantUML is remarkably straightforward. This ease of use is largely attributed to the user-friendly nature of its syntax, designed to be both intuitive and easy to remember.
+
+All other diagrams were created using the vscode extension [UMLet](https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet)
+
+The extensions enables the user to simply create UML diagrams in VScode as .uxf files. Thus, the diagrams are directly implemented in the Wiki and do not have to be brought into the project laboriously.

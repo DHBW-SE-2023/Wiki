@@ -53,6 +53,3 @@ go-callvis -file <pathToTargetFile> <pathToTargetPackage>
 ```
 The default output is an *.svg* file which can be viewed in browsers or specialized software.
 For output in other formats please specify the format using ```-format=<svg|png|jpg|...>```
-
-
-Back to main page [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/README.md).

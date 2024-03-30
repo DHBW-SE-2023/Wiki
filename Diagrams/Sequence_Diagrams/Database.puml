@@ -1,0 +1,45 @@
+@startuml Database
+
+Actor User as user
+Participant "MVVM" as app
+Participant "Database_Backend" as daemon
+Participant "Database" as db
+
+activate user
+
+note over user, app
+abstraction trough
+docker not shown
+for simplicity
+end note
+
+user -> app ++: Run YAAC
+app -> daemon ++: ConnectDatabase()
+
+daemon -> db ++: Create Database
+daemon -> db: Open Database
+
+group creating new entries
+app -> daemon: InsertList()
+daemon -> db: Delete Previous Identical Entry
+daemon -> db: Create New Entry
+end group
+
+group updating old entries
+app -> daemon: UpdateList()
+daemon -> db: Overwrite Old Entry
+end group
+
+group fetching latest entry
+app -> daemon: LatestList()
+daemon -> db: Search for Latest Entry
+db --> daemon: Entry
+daemon --> app: List
+end group
+
+note over app, db
+The database offers many more functions,
+which operate in a very similar way to the shown three
+end note
+
+@enduml
