@@ -12,3 +12,5 @@ Creating sequence diagrams with PlantUML is remarkably straightforward. This eas
 ## Fetching unprocessed Attendance-Lists
 ![](Periodic_Mail_Fetch.png)
 
+## Using the Database
+![](Database.png)
