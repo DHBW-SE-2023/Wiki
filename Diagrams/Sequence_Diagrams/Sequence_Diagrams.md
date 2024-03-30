@@ -14,3 +14,6 @@ Creating sequence diagrams with PlantUML is remarkably straightforward. This eas
 
 ## Using the Database
 ![](Database.png)
+
+## Uploading Attendance-Lists manually
+![](Adding_Lists_Manually.png)

@@ -14,8 +14,7 @@ for simplicity
 end note
 
 user -> app ++: Run YAAC
-app -> daemon ++: NewBackend()
-app -> daemon: ConnectDatabase()
+app -> daemon ++: ConnectDatabase()
 
 daemon -> db ++: Create Database
 daemon -> db: Open Database
