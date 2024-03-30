@@ -1,0 +1,33 @@
+@startuml Adding_Lists_Manually
+
+Actor User as user
+Participant "Frontend" as ui
+Participant "MVVM" as app
+Participant "Database_Backend" as daemon
+
+activate user
+
+note right of user
+abstraction trough
+docker not shown
+for simplicity
+end note
+
+user -> app ++: Run YAAC
+app -> daemon ++: ConnectDatabase()
+app -> ui ++: New()
+app -> ui: OpenMainWindow()
+ui --> user: Show Frontend
+
+user -> ui: Upload New Attendance-List
+ui -> ui ++: OpenImageUpload()
+ui -> user: ShowFileDialog()
+user --> ui: File (Image of Attendance-List)
+ui -> user: Enter Course-ID
+user --> ui: Course-ID
+
+ui -> app: UploadImage()
+app -> daemon: InsertList()
+ui --
+
+@enduml
