@@ -12,8 +12,7 @@ Welcome to the main page of our Wiki.
 
 ![YAAC](./Assets/Icon.png)
 # What is YAAC?
-YAAC is 'Yet Another Attendance Checker' which goal it is to simplify the daily attendance checks at the DHBW Friedrichshafen. \
-If you are interested in reading about our requirements more specifically,view our requirement specifications [here](https://github.com/DHBW-SE-2023/Wiki/blob/main/Pages/RequirementSpecs.md).
+YAAC is 'Yet Another Attendance Checker' which goal it is to simplify the daily attendance checks at the DHBW Friedrichshafen.
 
 <!--
 ### Software used:
